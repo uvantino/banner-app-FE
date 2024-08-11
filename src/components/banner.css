@@ -1,0 +1,73 @@
+.banner-wrapper {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 20px;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+  }
+  
+  .banner-content {
+    max-width: 600px;
+  }
+  
+  .banner-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .banner-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .banner-cta {
+    background-color: white;
+    border-radius: 25px;
+    color: #6e8efb;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 25px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .banner-cta:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  .banner-refresh {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .banner-refresh:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .banner-wrapper {
+      padding: 20px;
+    }
+  
+    .banner-title {
+      font-size: 2rem;
+    }
+  
+    .banner-description {
+      font-size: 1rem;
+    }
+  }

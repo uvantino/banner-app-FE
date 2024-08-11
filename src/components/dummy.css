@@ -1,0 +1,55 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .banner-title {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  .banner-description {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    max-width: 600px;
+  }
+  
+  .banner-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  .banner-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Adjust the CountdownTimer styles as needed */
